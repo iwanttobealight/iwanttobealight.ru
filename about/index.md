@@ -1,10 +1,12 @@
 ---
 layout: layouts/post.njk
-title: About Me
+title: About me
 templateClass: tmpl-post
 eleventyNavigation:
-  key: About Me
+  key: About me
   order: 3
 ---
 
-I am a person that writes stuff.
+Hello! My name is Daria Moreno-Gogoleva. I live in Saint Petersburg, Russia. 
+
+It's my personal blog about usual things and ideas. Nothing special.
