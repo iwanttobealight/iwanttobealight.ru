@@ -1,5 +1,5 @@
 ---
-title: What is this blog about
+title: what is this blog about
 description: first post 
 date: 2019-05-10
 tags:
