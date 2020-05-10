@@ -19,6 +19,10 @@ body {
   color: var(--darkgray);
   background-color: var(--white);
   font-size: 18px;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
 }
 p:last-child {
   margin-bottom: 0;
@@ -40,6 +44,9 @@ a[href]:visited {
 }
 main {
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: auto;
 }
 main :first-child {
   margin-top: 0;
@@ -88,6 +95,7 @@ blockquote {
   font-size: 0.9rem;
   margin: 2rem;
 }
+
 .highlight-line {
   display: block;
   padding: 0.125em 1em;
