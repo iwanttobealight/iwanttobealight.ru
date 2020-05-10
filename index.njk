@@ -1,11 +1,11 @@
 ---
 layout: layouts/home.njk
 eleventyNavigation:
-  key: Home
-  order: 1
+  key: posts
+  order: 2
 ---
 
-<h1>Latest posts (it is all standard templates that i'll replace with real content)</h1>
+<h1>latest posts</h1>
 
 {% set postslist = collections.posts  | head(-5) %}
 {% set postslistCounter = collections.posts | length %}
