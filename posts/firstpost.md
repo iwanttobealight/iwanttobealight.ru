@@ -1,26 +1,34 @@
 ---
-title: This is my first post.
-description: This is a post on My Blog about agile frameworks.
-date: 2019-05-01
+title: What is this blog about
+description: first post 
+date: 2019-05-10
 tags:
   - another-tag
 layout: layouts/post.njk
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+Last night I was drinking tequila. Yesterday I was sleeping for 10 hours. I woke up with the idea of this blog.
 
-## Section Header
+I have several blogs — on tumblr, on telegram, on twitter. And I need a new one.
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+## why?
 
-``` text/2-3
-// this is a command
-function myCommand() {
-	let counter = 0;
-	counter++;
-}
+In last months I find myself in unusual thinking. Less about work, more about nature and people. 
 
-// Test with a line break above this line.
-console.log('Test');
-```
+I started to like taking photos on my phone. I can't read fiction books any more. There are all boring. I like books about design and programming. I like articles on the internet. Instagrams of strangers. Architecture. Things, that I haven't noticed before.
+
+It feels like the internal point of view has changed.
+
+I want to write it down. I want to do it in English cause my English is really awful. It is the way of remove unnecessary words and concentrate on important thoughts.
+
+
+> I like to do things on a surface, but only for myself. All my poems are like that. It is a dialog between me-in-the-past and me-in-the-future. Also, I like my notes to be available in every moment without login and password. This blog has it option.
+
+
+## so what is this about?
+
+It will be about new thoughts, feelings and vision. About people and nature. About concepts of my mental model. 
+
+I want to create a deep connection with myself. And I want to rethink a lot of stuff.
+
+here we go
