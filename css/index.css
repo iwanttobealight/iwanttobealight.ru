@@ -20,7 +20,7 @@ body {
   background-color: var(--white);
   font-size: 18px;
   display: flex;
-  height: 100%;
+  min-height: 100vh;
   flex-direction: column;
   justify-content: space-between;
 }
