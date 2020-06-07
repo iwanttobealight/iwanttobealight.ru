@@ -1,7 +1,7 @@
 {
-  "name": "eleventy-base-blog",
-  "version": "5.0.2",
-  "description": "A starter repository for a blog web site using the Eleventy static site generator.",
+  "name": "iwanttobealight.ru",
+  "version": "1.0.0",
+  "description": "My personal blog",
   "scripts": {
     "build": "eleventy",
     "watch": "eleventy --watch",
@@ -10,18 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/11ty/eleventy-base-blog.git"
+    "url": "https://github.com/iwanttobealight/iwanttobealight.ru"
   },
   "author": {
-    "name": "Zach Leatherman",
-    "email": "zachleatherman@gmail.com",
-    "url": "https://zachleat.com/"
+    "name": "Daria Moreno-Gogoleva",
+    "email": "iwanttobealight@yandex.ru",
+    "url": "https://iwanttobealight.ru"
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/11ty/eleventy-base-blog/issues"
-  },
-  "homepage": "https://github.com/11ty/eleventy-base-blog#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
     "@11ty/eleventy-navigation": "^0.1.3",
