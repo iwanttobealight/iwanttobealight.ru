@@ -16,7 +16,7 @@ for example — if I know some clever person, I trust her in her field of knowle
 But it wasn't. It was like it seems — irresponsible and careless acts. 
 I was wrong. I didn't listen to my intuition.
 
-if something (external) seems wrong — it's probably wrong. (things in my head lives by different laws)
+if something (external) seems wrong — it's probably wrong. (things in my head lives by other laws)
 
 i have to less listen to others and more trust myself
 
