@@ -6,7 +6,15 @@ eleventyNavigation:
   key: about
   order: 1
 ---
+Дарья Морено-Гоголева
 
-Hello! My name is Daria Moreno-Gogoleva. I live in Saint Petersburg, Russia. 
+![это я](../img/me.jpg)
 
-I like poetry, podcasts, architectural walks and photographing on old cameras. It's my personal blog about usual things and ideas. Nothing special.
+Программистка. Читаю поэзию, фотографирую на айфон, ругаюсь за феминизм.
+
+Теперь пишу на русском
+
+Меня можно найти [в твиттере](https://twitter.com/twanttobealighi) и [в инстаграме](https://www.instagram.com/twanttobealighi/)
+
+Россия, Санкт-Петербург
+
