@@ -19,7 +19,7 @@
       <ul class="nav">
         {%- for entry in collections.all | eleventyNavigation %}
           <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}">
-            <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+            <a href="{{ entry.url | url }}" class="{{ entry.microformat }}">{{ entry.title }}</a>
           </li>
         {%- endfor %}
       </ul>
