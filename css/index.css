@@ -258,3 +258,7 @@ section img {
   width: 100%;
   max-width: 400px;
 }
+
+article img {
+  margin-top: 20px;
+}
