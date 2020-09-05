@@ -7,7 +7,9 @@ templateClass: tmpl-post
 <title>my first webmention</title>
 <body>
   <div class="h-entry">
-    <p>in reply to: <a class="u-in-reply-to" href="https://aaronparecki.com/2018/06/30/11/your-first-webmention">@aaronpk</a></p>
+    {% include './h-card.njk' %}
+    <p>in reply to: <a class="u-in-reply-to" href="https://aaronparecki.com/2018/06/30/11/your-first-webmention">@aaronpk</a>
+    </p>
     <p class="e-content">Trying out this guide to sending webmentions</p>
   </div>
 </body>
