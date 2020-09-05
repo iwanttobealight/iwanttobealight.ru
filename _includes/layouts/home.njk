@@ -3,3 +3,6 @@ layout: layouts/base.njk
 templateClass: tmpl-home
 ---
 {{ content | safe }}
+<div hidden>
+{% include './about-content.njk' %}
+</div>
