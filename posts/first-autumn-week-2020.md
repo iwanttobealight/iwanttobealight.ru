@@ -33,6 +33,6 @@ layout: layouts/post.njk
 ## ссылки
 
 Запись концерта Земфиры — [https://youtu.be/HAwojqfWm30](https://youtu.be/HAwojqfWm30)
-Бруно завёл котёнка и телеграм канал о нём — [https://t.me/tzeentch_cat](https://t.me/tzeentch_cat)
+Бруно завёл котёнка и телеграм-канал о нём — [https://t.me/tzeentch_cat](https://t.me/tzeentch_cat)
 Екатерина Кронгауз выложила запись своего первого стендапа, он смешной и очень грустый — [https://www.facebook.com/ekaterina.kronhaus/posts/10157725319413095](https://www.facebook.com/ekaterina.kronhaus/posts/10157725319413095)
 Мои [экс-коллеги](https://breadhead.ru/) запустили доставку еды — [https://neo.kitchen/](https://neo.kitchen/)
