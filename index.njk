@@ -8,7 +8,7 @@ eleventyNavigation:
 <h1>latest posts</h1>
 
 <section>
-  {% set postslist = collections.posts  | head(-5) %}
+  {% set postslist = collections.posts %}
   {% set postslistCounter = collections.posts | length %}
   {% include "postslist.njk" %}
 
