@@ -1,80 +1,36 @@
-# eleventy-base-blog
+# eleventy-webmentions
 
+A basic starter template for [Eleventy](https://www.11ty.io) blogs with added support for [webmentions](https://indieweb.org/Webmention).  
+For more information about this, read [Static Indieweb: Using Webmentions](https://mxb.at/blog/using-webmentions-on-static-sites/).
 
-## only npm using
+![Example of Webmention Section](https://mxb.at/assets/media/static-indieweb-webmentions/starter-template.png)
 
-A starter repository showing how to build a blog with the [Eleventy](https://github.com/11ty/eleventy) static site generator.
+## Installation
 
-[![Build Status](https://travis-ci.org/11ty/eleventy-base-blog.svg?branch=master)](https://travis-ci.org/11ty/eleventy-base-blog)
+Run `npm install` after cloning this repository. The available commands are identical to [eleventy-base-blog](https://github.com/11ty/eleventy-base-blog).
 
-## Demos
+## Enable Webmentions
 
-* [Netlify](https://eleventy-base-blog.netlify.com/)
-* [GitHub Pages](https://11ty.github.io/eleventy-base-blog/)
+Follow these steps to get it working:
 
-## Deploy this to your own site
+1. Go to [https://webmention.io/](https://webmention.io/) and sign in. To authenticate, you will have to include a `<a rel="me">` link at your domain, pointing to your github or twitter user URL:  
 
-These builders are amazing—try them out to get your own Eleventy site in a few clicks!
+```<a href="https://github.com/maxboeck" rel="me">Max on Github</a>```
 
-* [Get your own Eleventy web site on Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/11ty/eleventy-base-blog)
-* [Get your own Eleventy web site on ZEIT Now](https://zeit.co/new/project?template=11ty/eleventy-base-blog)
+2. Once you've verified domain ownership, go to the [settings page](https://webmention.io/settings). Copy the token listed under "API Key" there.
 
-## Getting Started
+3. Paste the token into the `.env.sample` file, then delete the `.sample` from the filename. That's a secret key, so this file should be in your `.gitignore`. If you are hosting your site on Netlify, make sure to [enter the token in your build settings](https://docs.netlify.com/configure-builds/environment-variables/#declare-variables).
 
-### 1. Clone this Repository
+4. Check the information in `_data/metadata.json` and make sure your domain name is correct.  It should look like `example.com`.
 
-```
-git clone https://github.com/11ty/eleventy-base-blog.git my-blog-name
-```
+4. Run Eleventy. It will try to fetch the webmentions for your domain (you may not yet have any, check your webmentions.io [dashboard](https://webmention.io/dashboard)). After the first use, a cached json file will be created so you don't have to re-fetch that data everytime eleventy regenerates the site in development.
 
+## Customization
 
-### 2. Navigate to the directory
+This starter includes just the basic functionality, feel free to make it your own.  
+The relevant parts are: 
 
-```
-cd my-blog-name
-```
-
-Specifically have a look at `.eleventy.js` to see if you want to configure any Eleventy options differently.
-
-### 3. Install dependencies
-
-```
-npm install
-```
-
-### 4. Edit _data/metadata.json
-
-### 5. Run Eleventy
-
-```
-npx eleventy
-```
-
-Or build and host locally for local development
-```
-npx eleventy --serve
-```
-
-Or build automatically when a template changes:
-```
-npx eleventy --watch
-```
-
-Or in debug mode:
-```
-DEBUG=* npx eleventy
-```
-
-### Implementation Notes
-
-* `about/index.md` shows how to add a content page.
-* `posts/` has the blog posts but really they can live in any directory. They need only the `post` tag to be added to this collection.
-* Add the `nav` tag to add a template to the top level site navigation. For example, this is in use on `index.njk` and `about/index.md`.
-* Content can be any template format (blog posts needn’t be markdown, for example). Configure your supported templates in `.eleventy.js` -> `templateFormats`.
-	* Because `css` and `png` are listed in `templateFormats` but are not supported template types, any files with these extensions will be copied without modification to the output (while keeping the same directory structure).
-* The blog post feed template is in `feed/feed.njk`. This is also a good example of using a global data files in that it uses `_data/metadata.json`.
-* This example uses three layouts:
-  * `_includes/layouts/base.njk`: the top level HTML structure
-  * `_includes/layouts/home.njk`: the home page template (wrapped into `base.njk`)
-  * `_includes/layouts/post.njk`: the blog post template (wrapped into `base.njk`)
-* `_includes/postlist.njk` is a Nunjucks include and is a reusable component used to display a list of all the posts. `index.njk` has an example of how to use it.
+* Templates: `_includes/webmentionlist.njk` and `_includes/webmention.njk`
+* Filter: `webmentionsForUrl` in `.eleventy.js`
+* Data Fetching: `_data/webmentions.js`
+* Basic Styling: `css/webmentions.css`

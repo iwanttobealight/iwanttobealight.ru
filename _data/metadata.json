@@ -1,12 +1,14 @@
 {
   "title": "iwanttobealight",
-  "url": "iwanttobealight.ru",
+  "url": "https://iwanttobealight.ru/",
+  "domain": "iwanttobealight.ru",
   "description": "About thoughts, events and little nothings of life",
   "feed": {
     "subtitle": "About thoughts, events and little nothings of life",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "iwanttobealight.ru"
+    "url": "https://iwanttobealight.ru/feed/feed.xml",
+    "id": "https://iwanttobealight.ru/"
   },
   "author": {
     "name": "Daria Moreno-Gogoleva",

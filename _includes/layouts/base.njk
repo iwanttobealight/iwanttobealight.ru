@@ -7,9 +7,11 @@
     <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
+    <link rel="stylesheet" href="{{ '/css/webmentions.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
-    <link rel="webmention" href="https://webmention.io/iwanttobealight.ru/webmention"/>
-    <link rel="pingback" href="https://webmention.io/iwanttobealight.ru/xmlrpc"/>
+
+    <link rel="pingback" href="https://webmention.io/{{ metadata.domain }}/xmlrpc">
+    <link rel="webmention" href="https://webmention.io/{{ metadata.domain }}/webmention">
   </head>
   <body>
     <header>
@@ -29,10 +31,9 @@
 
       {{ content | safe }}
     </main>
+
     <footer>
    powered by <a target="_blank" rel="noopener" href="https://www.11ty.dev/">eleventy</a> and <a target="_blank" rel="noopener" href="https://www.netlify.com/">netlify</a>
     </footer>
-
-    <!-- Current page: {{ page.url | url }} -->
   </body>
 </html>
