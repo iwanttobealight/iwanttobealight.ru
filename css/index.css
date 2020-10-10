@@ -267,3 +267,7 @@ section img {
 article img {
   margin-top: 20px;
 }
+
+small img {
+  max-height: 18rem;
+}
