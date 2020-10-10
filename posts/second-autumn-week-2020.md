@@ -38,8 +38,8 @@ layout: layouts/post.njk
 
 ## ссылки
 
-Super Mario Odyssey — [https://www.nintendo.com/games/detail/super-mario-odyssey-switch/](https://www.nintendo.com/games/detail/super-mario-odyssey-switch/)
-тикток недели — [https://www.tiktok.com/@gbell/video/6868522732976491778](https://www.tiktok.com/@gbell/video/6868522732976491778)
-комикс про теорию игр — [https://www.ozon.ru/context/detail/id/140905273](https://www.ozon.ru/context/detail/id/140905273)
-подкаст про покер — [https://music.yandex.ru/album/8707489/track/70096482](https://music.yandex.ru/album/8707489/track/70096482)
-поэма Пастернака "Лейтенант Шмидт" — [http://www.world-art.ru/lyric/lyric.php?id=4570](http://www.world-art.ru/lyric/lyric.php?id=4570)
+- Super Mario Odyssey — [https://www.nintendo.com/games/detail/super-mario-odyssey-switch/](https://www.nintendo.com/games/detail/super-mario-odyssey-switch/)
+- тикток недели — [https://www.tiktok.com/@gbell/video/6868522732976491778](https://www.tiktok.com/@gbell/video/6868522732976491778)
+- комикс про теорию игр — [https://www.ozon.ru/context/detail/id/140905273](https://www.ozon.ru/context/detail/id/140905273)
+- подкаст про покер — [https://music.yandex.ru/album/8707489/track/70096482](https://music.yandex.ru/album/8707489/track/70096482)
+- поэма Пастернака "Лейтенант Шмидт" — [http://www.world-art.ru/lyric/lyric.php?id=4570](http://www.world-art.ru/lyric/lyric.php?id=4570)

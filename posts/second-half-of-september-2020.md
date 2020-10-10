@@ -34,6 +34,6 @@ The Great Perhabs это история про постапокалипсис. �
 
 ## ссылки
 
-The Great Perhabs — [https://www.nintendo.ru/-/-Nintendo-Switch/The-Great-Perhaps-1800936.html](https://www.nintendo.ru/-/-Nintendo-Switch/The-Great-Perhaps-1800936.html)
-Код. Тайный язык информатики — [https://www.mann-ivanov-ferber.ru/books/kod-tajnyij-yazyik-informatiki/](https://www.mann-ivanov-ferber.ru/books/kod-tajnyij-yazyik-informatiki/)
-How to see. Визуальное путешествие по миру, который создан человеком — [https://www.mann-ivanov-ferber.ru/books/kak-videt/](https://www.mann-ivanov-ferber.ru/books/kak-videt/)
+- The Great Perhabs — [https://www.nintendo.ru/-/-Nintendo-Switch/The-Great-Perhaps-1800936.html](https://www.nintendo.ru/-/-Nintendo-Switch/The-Great-Perhaps-1800936.html)
+- Код. Тайный язык информатики — [https://www.mann-ivanov-ferber.ru/books/kod-tajnyij-yazyik-informatiki/](https://www.mann-ivanov-ferber.ru/books/kod-tajnyij-yazyik-informatiki/)
+- How to see. Визуальное путешествие по миру, который создан человеком — [https://www.mann-ivanov-ferber.ru/books/kak-videt/](https://www.mann-ivanov-ferber.ru/books/kak-videt/)
