@@ -25,11 +25,12 @@ layout: layouts/post.njk
 
 Ещё я выиграла книжку из [рассылочки](https://marinintim.com/#subscribe) [Тима](https://marinintim.com/). Она о том, как писать прозу. Спасибо, Тим! Надеюсь, она мне поможет со структурой второй части Рахрейтена.
 
-![том-ям и немного Тима](../../img/book.jpg)
-том-ям и немного Тима
+![книжка](../../img/book.jpg)
+книжка
 
 ## ссылки
 
 Новый альбом Монеточки — [https://music.yandex.ru/album/12298441](https://music.yandex.ru/album/12298441)
 Смешная серия Рика и Морти про дракона — [https://www.imdb.com/title/tt10655680/](https://www.imdb.com/title/tt10655680/)
 Видяшка от Севы о пути на работу — [https://twitter.com/no_wrap/status/1311933622144962560](https://twitter.com/no_wrap/status/1311933622144962560)
+Книжка, которую подарил Тим - [https://www.amazon.com/Writing-Well-30th-Anniversary-Nonfiction-ebook/dp/B0090RVGW0](https://www.amazon.com/Writing-Well-30th-Anniversary-Nonfiction-ebook/dp/B0090RVGW0)

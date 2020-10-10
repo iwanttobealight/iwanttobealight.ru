@@ -27,10 +27,15 @@ body {
 p:last-child {
   margin-bottom: 0;
 }
+
+article {
+  max-width: 37.5em; /* 600px /16 */
+}
+
 p,
 .tmpl-post li,
 img {
-  max-width: 37.5em; /* 600px /16 */
+  max-width: 100%;
 }
 p,
 .tmpl-post li {
@@ -220,6 +225,7 @@ blockquote {
 }
 a {
   color: #3740ff;
+  overflow-wrap: anywhere;
 }
 a[href].tag,
 a[href].tag:visited {
