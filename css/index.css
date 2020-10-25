@@ -108,6 +108,7 @@ pre {
 }
 code {
   font-family: monospace;
+  white-space: pre-wrap;
 }
 blockquote {
   font-size: 0.9rem;
