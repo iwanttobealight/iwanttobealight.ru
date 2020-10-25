@@ -15,9 +15,12 @@ layout: layouts/post.njk
 
 ![осенний Петербург](../../img/oktober-spb.jpg)
 
+Спотифай подкинул отличный плейлист с джазом. Мой любимый тип музыки — можно не слушать, а иногда вслушиваться и залипать ненадолго.
+
 Ещё видела в книжном два тома писем Цветаевой, теперь думаю почитать. Хотя может сейчас не стоит, а то совсем загрущу.
 
 ## ссылки
 
 - Канал в телеграме про подготовку к IELTS — [https://t.me/ieltstestnotes](https://t.me/ieltstestnotes)
 - Интервью с Красильщиком — [https://youtu.be/7r0CD1nMUIA](https://youtu.be/7r0CD1nMUIA)
+- Джазовый плейлист от спотифая — [https://open.spotify.com/playlist/37i9dQZF1DX3SiCzCxMDOH](https://open.spotify.com/playlist/37i9dQZF1DX3SiCzCxMDOH)
