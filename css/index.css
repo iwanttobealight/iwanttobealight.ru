@@ -177,22 +177,28 @@ blockquote {
 }
 
 /* Posts list */
+.postlist-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 800px) { 
+  .postlist-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+.postlist-wrapper > * {
+  min-width: 0;
+  min-height: 0;
+}
+
 .postlist {
-  list-style: none;
-  padding: 0;
+  list-style: lao;
+  margin-bottom: 60px;
 }
-.postlist-item {
-  counter-increment: start-from -1;
-}
-.postlist-item:before {
-  display: inline-block;
-  pointer-events: none;
-  content: "" counter(start-from, decimal-leading-zero) ". ";
-  line-height: 100%;
-  text-align: right;
-}
-.postlist-date,
-.postlist-item:before {
+
+.postlist-date {
   font-size: 0.8125em; /* 13px /16 */
   color: var(--darkgray);
 }

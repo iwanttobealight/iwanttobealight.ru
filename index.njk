@@ -5,11 +5,7 @@ eleventyNavigation:
   order: 2
 ---
 
-<h1>latest posts</h1>
-
-<section>
   {% set postslist = collections.posts %}
   {% set postslistCounter = collections.posts | length %}
   {% include "postslist.njk" %}
 
-</section >
