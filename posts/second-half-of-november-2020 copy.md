@@ -38,9 +38,9 @@ layout: layouts/post.njk
 
 
 ## ссылки
-— Торшер из икеи NOT — [https://www.ikea.com/ru/ru/p/not-nut-torsher-lampa-dlya-chteniya-belyy-50360491/](https://www.ikea.com/ru/ru/p/not-nut-torsher-lampa-dlya-chteniya-belyy-50360491/)
-— Holy.js (конфа про джс) — [https://holyjs-moscow.ru/](https://holyjs-moscow.ru/)
-— Invisible (наборы вина (по рефералке бокалы в подарок)) — [https://www.invisible.ru/i/DARIA9393?from=page_account_invites-copy_link](https://www.invisible.ru/i/DARIA9393?from=page_account_invites-copy_link)
+- Торшер из икеи NOT — [https://www.ikea.com/ru/ru/p/not-nut-torsher-lampa-dlya-chteniya-belyy-50360491/](https://www.ikea.com/ru/ru/p/not-nut-torsher-lampa-dlya-chteniya-belyy-50360491/)
+- Holy.js (конфа про джс) — [https://holyjs-moscow.ru/](https://holyjs-moscow.ru/)
+- Invisible (наборы вина (по рефералке бокалы в подарок)) — [https://www.invisible.ru/i/DARIA9393?from=page_account_invites-copy_link](https://www.invisible.ru/i/DARIA9393?from=page_account_invites-copy_link)
 - Close to the Sun — [https://www.nintendo.com/games/detail/close-to-the-sun-switch/](https://www.nintendo.com/games/detail/close-to-the-sun-switch/)
 - YAC (конфа яндекса) — [https://www.youtube.com/watch?v=qlFTxADGixA](https://www.youtube.com/watch?v=qlFTxADGixA)
 — Запуск завтра с Ольгой Миловановой про VR — [https://music.yandex.ru/album/9294155/track/74422362](https://music.yandex.ru/album/9294155/track/74422362)
