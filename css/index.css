@@ -182,7 +182,11 @@ blockquote {
   grid-template-columns: 1fr 1fr;
 }
 
-@media (max-width: 800px) { 
+.news {
+  grid-row: 1/3;
+}
+
+@media (max-width: 800px) {
   .postlist-wrapper {
     grid-template-columns: 1fr;
   }
