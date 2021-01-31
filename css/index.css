@@ -236,7 +236,7 @@ blockquote {
 }
 a {
   color: #3740ff;
-  overflow-wrap: anywhere;
+  word-wrap: break-word;
 }
 a[href].tag,
 a[href].tag:visited {
