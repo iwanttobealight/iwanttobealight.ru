@@ -32,6 +32,13 @@ article {
   max-width: 37.5em; /* 600px /16 */
 }
 
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
 p,
 .tmpl-post li,
 img {

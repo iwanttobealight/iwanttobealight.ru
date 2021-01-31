@@ -5,11 +5,15 @@ const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const lazyImagesPlugin = require('eleventy-plugin-lazyimages');
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
+  eleventyConfig.addPlugin(lazyImagesPlugin, {
+    preferNativeLazyLoad: true
+  });
 
   eleventyConfig.setDataDeepMerge(true);
 
