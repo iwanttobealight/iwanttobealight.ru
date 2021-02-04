@@ -289,3 +289,7 @@ article img {
 small img {
   max-height: 18rem;
 }
+
+small {
+  color: #6f6f7b;
+}
