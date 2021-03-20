@@ -9,7 +9,7 @@
   dependencies:
     dependency-graph "^0.8.1"
 
-"@11ty/eleventy-plugin-rss@^1.0.3":
+"@11ty/eleventy-plugin-rss@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@11ty/eleventy-plugin-rss/-/eleventy-plugin-rss-1.1.0.tgz#c32a7d6c77b313b1a3a5ed687704a3a1929eeca7"
   integrity sha512-4+qMcuSgHv6UzyOAOCIl2m6uCtJv7Fm9iWAjwiNSs43SWACVc+0KDzNjN/jkDGuDMKBi3zjvmuFg1PhJZsuO7g==

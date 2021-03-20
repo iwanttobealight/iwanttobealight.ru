@@ -6,6 +6,8 @@ const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const lazyImagesPlugin = require('eleventy-plugin-lazyimages');
+const rssPlugin = require('@11ty/eleventy-plugin-rss')
+
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
@@ -14,7 +16,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(lazyImagesPlugin, {
     preferNativeLazyLoad: true
   });
-
+  eleventyConfig.addPlugin(rssPlugin, {
+    posthtmlRenderOptions: {}
+  });
   eleventyConfig.setDataDeepMerge(true);
 
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
