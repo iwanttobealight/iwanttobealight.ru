@@ -6,8 +6,8 @@
   "feed": {
     "subtitle": "About thoughts, events and little nothings of life",
     "filename": "feed.xml",
-    "path": "/feed/feed.xml",
-    "url": "https://iwanttobealight.ru/feed/feed.xml",
+    "path": "/feed.xml",
+    "url": "https://iwanttobealight.ru/feed.xml",
     "id": "https://iwanttobealight.ru/"
   },
   "author": {
