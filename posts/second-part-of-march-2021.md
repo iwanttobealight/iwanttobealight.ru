@@ -57,3 +57,4 @@ layout: layouts/post.njk
 - помидорочный сайт – [https://tomato-timer.com](https://tomato-timer.com)
 - фотокурсы - [https://school.yarkiy.ru/courses/beginners](https://school.yarkiy.ru/courses/beginners)
 - как добавить rss - [https://iwanttobealight.ru/posts/how-to-rss/](https://iwanttobealight.ru/posts/how-to-rss/)
+- список страниц блогов с описанием сетапа (тоже такой хочу написать) - [https://github.com/wesbos/awesome-uses](https://github.com/wesbos/awesome-uses)
