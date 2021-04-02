@@ -50,7 +50,7 @@ layout: layouts/post.njk
 Прицепила к этому блогу рсс и написала отдельный пост "Как прицепить к eleventy-блогу рсс".
 Если у вас есть рсс-лента в блоге, то напишите мне в [телеграм @iwanttobealight](https://t.me/iwanttobealight) или на почту `iwanttobealight@yandex.ru`, подпишусь.
 
-## ссылки (эппл подкасты не могут в кириллицу)
+## ссылки 
 
 - Вастрик про квантовые компьютеры - [https://vas3k.ru/blog/quantum_computing/](https://vas3k.ru/blog/quantum_computing/)
 - эппл вотч - [https://www.apple.com/ru/apple-watch-se/](https://www.apple.com/ru/apple-watch-se/)
