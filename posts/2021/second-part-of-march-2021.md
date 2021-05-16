@@ -13,15 +13,15 @@ layout: layouts/post.njk
 
 <div>
 <div style="display: inline-block;  margin-bottom: 2em;">
-<img class="img-small" src="../../img/apple-watch-sport.jpg" alt="экран для спорта" width="200">
+<img class="img-small" src="../../../img/apple-watch-sport.jpg" alt="экран для спорта" width="200">
 для тренировок
 </div>
 <div style="display: inline-block;  margin-bottom: 2em;">
-<img class="img-small" src="../../img/apple-watch-home.jpg" alt="экран для дома" width="200">
+<img class="img-small" src="../../../img/apple-watch-home.jpg" alt="экран для дома" width="200">
 для дома 
 </div>
 <div style="display: inline-block;  margin-bottom: 2em;">
-<img class="img-small" src="../../img/apple-watch-base.jpg" alt="основной экран" width="200">
+<img class="img-small" src="../../../img/apple-watch-base.jpg" alt="основной экран" width="200">
 яркий кружочек это солнце
 </div>
 </div>
@@ -31,7 +31,7 @@ layout: layouts/post.njk
 
 Собрала котика-помидорку (думаю написать про него отдельно). Прикрутила экранчик к стандартному котику и написала код для таймера на 25 минут. Нравится больше, чем помидорочный сайт, который я использовала два с половиной года.
 
-![котик-помидорка](../../img/cat-tomato.jpg)
+![котик-помидорка](../../../img/cat-tomato.jpg)
 
 ##
 
@@ -39,9 +39,9 @@ layout: layouts/post.njk
 
 фотки с занятий:
 
-![античный бюст в темноте](../../img/photoclass-antiquity-2.jpg)<small>эта была засчитана за сделанное задание</small>
+![античный бюст в темноте](../../../img/photoclass-antiquity-2.jpg)<small>эта была засчитана за сделанное задание</small>
 
-![еще разок античный бюст в темноте](../../img/photoclass-antiquity-1.jpg)<small>а у этой мне нравится ракурс</small>
+![еще разок античный бюст в темноте](../../../img/photoclass-antiquity-1.jpg)<small>а у этой мне нравится ракурс</small>
 
 ##
 

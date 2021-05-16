@@ -1,0 +1,23 @@
+---
+layout: layouts/home.njk
+templateClass: tmpl-archive
+---
+{% set postslistCounter = collections.posts | length %}
+<h2>{{ title }} </h2>
+<p> всего {{ postslistCounter }} </p>
+{% set postslist = collections.posts %}
+
+<ul reversed class="postlist">
+  {%- for post in postslist | reverse -%}
+    <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
+      <a href="{{ post.url | url }}" class="postlist-link">
+        {% if post.data.title %}{{ post.data.title }}
+        {% else %}
+          <code>{{ post.url }}</code>
+        {% endif %}
+      </a>
+      <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+    </li>
+
+  {%- endfor -%}
+</ul>

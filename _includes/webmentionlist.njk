@@ -11,7 +11,7 @@ templateClass: tmpl-post
   {% if mentions | length %}
     {# <div class="webmentions__facepile">
       {% for webmention in mentions | reverse | head(5) %}
-        <img src="{% if webmention.author.photo %}{{ webmention.author.photo }}{% else %}{{ '/img/webmention-avatar-default.svg' | url }}{% endif %}" title="{{ webmention.author.name }}" alt="" class="webmentions__face" />
+        <img src="{% if webmention.author.photo %}{{ webmention.author.photo }}{% else %}{{ '/../img/webmention-avatar-default.svg' | url }}{% endif %}" title="{{ webmention.author.name }}" alt="" class="webmentions__face" />
       {% endfor %}
       {% if mentions.length > 5 %}
         <span>+{{ mentions.length - 5 }}</span>
