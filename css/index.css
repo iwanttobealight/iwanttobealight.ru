@@ -290,3 +290,17 @@ small {
 .img-small {
   max-width: 200px;
 }
+
+.img-vertical-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
+}
+
+.img-vertical {
+  max-height: 500px;
+  object-fit: contain;
+  object-position: left;
+  max-width: 300px;
+  margin: 0;
+}
