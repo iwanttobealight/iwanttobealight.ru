@@ -56,5 +56,9 @@ layout: layouts/post.njk
 ## ссылки
 
 - список эмоджи — [https://www.webfx.com/tools/emoji-cheat-sheet/](https://www.webfx.com/tools/emoji-cheat-sheet/)
+- Круэлла — [https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D1%83%D1%8D%D0%BB%D0%BB%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)](https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D1%83%D1%8D%D0%BB%D0%BB%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC))
+- книжка про бредовую работу — [https://www.ozon.ru/product/bredovaya-rabota-traktat-o-rasprostranenii-bessmyslennogo-truda-greber-devid-181288070/](https://www.ozon.ru/product/bredovaya-rabota-traktat-o-rasprostranenii-bessmyslennogo-truda-greber-devid-181288070/)
+
+
 
 

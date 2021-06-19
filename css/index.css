@@ -304,3 +304,14 @@ small {
   max-width: 300px;
   margin: 0;
 }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 500px) { 
+  footer {
+    flex-direction: column;
+  }
+}
