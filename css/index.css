@@ -311,6 +311,21 @@ footer {
 }
 
 @media (max-width: 500px) { 
+  .home {
+    float: none;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .postlist-list {
+    padding-left: 0;
+    list-style: none;
+  }
+
   footer {
     flex-direction: column;
   }
