@@ -11,8 +11,8 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    X-Frame-Options = "DENY"
-    X-XSS-Protection = "1; mode=block"
     cache-control = '''
-    public
-    max-age=1800'''
+    public,
+    max-age=604800,
+    immutable
+    '''
