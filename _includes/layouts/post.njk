@@ -2,6 +2,9 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 ---
+<time datetime="{{date}}">{{ date | date('D MMMM YYYY, dddd') }}</time>
 <h1>{{ title }}</h1>
 
 <article class="h-entry e-content">{{ content | safe }}</article>
+
+<p><a href="/">ко всем постам</a></p>

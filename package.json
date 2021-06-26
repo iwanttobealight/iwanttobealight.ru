@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "A fork of eleventy-base-blog including webmention.io support",
   "scripts": {
-    "start": "npx eleventy --serve",
+    "start": "npx eleventy --serve --watch",
     "build": "npx eleventy",
     "watch": "npx eleventy --watch",
     "debug": "DEBUG=* npx eleventy"
@@ -27,6 +27,7 @@
     "@11ty/eleventy-navigation": "^0.1.6",
     "@11ty/eleventy-plugin-rss": "^1.1.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.0",
+    "dayjs": "^1.10.5",
     "dotenv": "^6.2.0",
     "eleventy-plugin-lazyimages": "^2.1.0",
     "lodash": "^4.17.11",

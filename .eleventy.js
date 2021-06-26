@@ -13,6 +13,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
+  eleventyConfig.addNunjucksFilter('date', require('./filters/nunjucks-dayjs-filter'))
   eleventyConfig.addPlugin(lazyImagesPlugin, {
     preferNativeLazyLoad: true
   });
