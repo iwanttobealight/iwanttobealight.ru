@@ -54,6 +54,7 @@ img {
   max-width: 100%;
   height: auto;
   image-rendering: pixelated;
+  object-fit: contain;
 }
 
 p, .tmpl-post li, img {
