@@ -33,9 +33,10 @@ layout: layouts/post.njk
 Из фоток на этой неделе только карантинное селфи
 ![селфи из карантина](../../../img/2021/covid-me.jpeg)
 
-
+upd: обновила стили блога, теперь он цветной и шрифт поменяла
 ## ссылки
 - мультик Лука — [https://en.wikipedia.org/wiki/Luca_(2021_film)](https://en.wikipedia.org/wiki/Luca_(2021_film))
 - макбук — [https://re-store.ru/catalog/Z11B0004T/](https://re-store.ru/catalog/Z11B0004T/)
 - firewatch — [https://en.wikipedia.org/wiki/Firewatch](https://en.wikipedia.org/wiki/Firewatch)
+- шрифт Raleway, который используется в этом блоге - [https://fonts.google.com/specimen/Raleway](https://fonts.google.com/specimen/Raleway)
 
