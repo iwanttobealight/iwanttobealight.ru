@@ -250,6 +250,7 @@ blockquote {
 
 .postlist {
   margin-bottom: 60px;
+  padding-left: 0;
 }
 
 .postlist-list {
