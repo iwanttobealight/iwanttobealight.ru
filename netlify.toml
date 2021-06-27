@@ -13,6 +13,6 @@
   [headers.values]
     cache-control = '''
     public,
-    max-age=604800,
+    max-age=7200,
     immutable
     '''
