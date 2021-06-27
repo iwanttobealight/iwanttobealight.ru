@@ -16,3 +16,5 @@
     max-age=7200,
     immutable
     '''
+[build.environment]
+  TZ = "UTC+3:00"
