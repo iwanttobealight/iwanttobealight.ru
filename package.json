@@ -29,7 +29,7 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.0",
     "dayjs": "^1.10.5",
     "dotenv": "^6.2.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "luxon": "^1.0.0",
     "markdown-it": "^8.4.1",
     "markdown-it-anchor": "^5.0.2",
