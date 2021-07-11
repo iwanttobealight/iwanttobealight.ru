@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-
 :root {
   --lightgray: #e0e0e0;
   --gray: #c0c0c0;
   --darkgray: #473341;
   --navy: #17050f;
-
   --white: #fff;
   --pink: #FD9FA9;
   --blue: #504DFA;
@@ -100,19 +98,17 @@ header {
   color: var(--greenish);
 }
 
-header a[href],
-header a[href]:visited {
+header a[href], header a[href]:visited {
   color: var(--white);
   font-weight: 400;
   transition: border 100ms ease-in;
   border-bottom: 1px solid transparent;
-} 
+}
 
-header a[href]:hover,
-header a[href]:visited:hover {
+header a[href]:hover, header a[href]:visited:hover {
   border-bottom: 1px solid var(--greenish);
   text-decoration: none;
-} 
+}
 
 footer {
   padding-left: 2rem;
@@ -296,8 +292,7 @@ blockquote {
   color: var(--white);
 }
 
-.postlist-item:hover *,
-.postlist-item:hover .postlist-link{
+.postlist-item:hover *, .postlist-item:hover .postlist-link {
   color: var(--white);
 }
 
@@ -315,8 +310,7 @@ blockquote {
   font-weight: 700;
 }
 
-.tmpl-home,
-.tmpl-post {
+.tmpl-home, .tmpl-post {
   background-color: var(--lightblue);
   margin: 0;
   width: 100%;
@@ -393,6 +387,18 @@ small {
   max-width: 200px;
 }
 
+.img-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  margin-top: 1em;
+}
+
+.img-wrap img {
+  max-width: 19em;
+  margin: 0;
+}
+
 .img-vertical-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -414,20 +420,17 @@ footer {
   color: var(--greenish);
 }
 
-
-footer a[href],
-footer a[href]:visited {
+footer a[href], footer a[href]:visited {
   color: var(--white);
   font-weight: 400;
   text-decoration: none;
   transition: border 100ms ease-in;
   border-bottom: 1px solid var(--greenish);
-} 
+}
 
-footer a[href]:hover,
-footer a[href]:visited:hover {
+footer a[href]:hover, footer a[href]:visited:hover {
   border-bottom: 1px solid transparent;
-} 
+}
 
 @media (max-width: 500px) {
   .home {
