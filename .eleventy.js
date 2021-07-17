@@ -51,6 +51,10 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("tagList", require("./_11ty/getTagList"));
 
+  eleventyConfig.addCollection("postsDiary", (colletion) =>
+    colletion.getFilteredByTag("новости-моей-жизни").reverse()
+  );
+
   eleventyConfig.addCollection("postsByYear", (collection) => {
     const sortedc = collection
       .getFilteredByTag("новости-моей-жизни")

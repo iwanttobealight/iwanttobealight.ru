@@ -7,17 +7,19 @@ templateClass: tmpl-archive
 <p> всего {{ postslistCounter }} </p>
 {% set postslist = collections.posts %}
 
-<ul reversed class="postlist">
+<ul reversed class="postlist postlist-grid">
   {%- for post in postslist | reverse -%}
-    <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
-      <a href="{{ post.url | url }}" class="postlist-link">
-        {% if post.data.title %}{{ post.data.title }}
+<div>
+              <a class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}" href="{{ post.url | url }}" class="postlist-link">
+      
+        {% if post.data.title %}<h2 class="postlist-title">{{ post.data.title }}</h2>
         {% else %}
           <code>{{ post.url }}</code>
         {% endif %}
       </a>
       <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
-    </li>
+    
+  </div>
 
   {%- endfor -%}
 </ul>

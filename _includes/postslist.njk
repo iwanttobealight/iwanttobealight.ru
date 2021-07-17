@@ -1,21 +1,24 @@
-<section class="postlist-wrapper news">
+{% set allPosts = collections.postsDiary | limit(7) %}
 
-    {% for year, yearPosts in collections.postsByYear %}
-      <h2 class="postlist-title">{{ year }}</h2>
+<section class="postlist-wrapper news">
       <ul class="postlist-list">
-        {% for post in yearPosts | reverse %}
+        {%  for post in allPosts %}
           <a class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}" href="{{ post.url | url }}" class="postlist-link">
             {% if post.data.title %}<h2 class="postlist-title">{{ post.data.title }}</h2>
             {% else %}
               <code>{{ post.url }}</code>
             {% endif %}
             </a>
+            <time class="postlist-date" datetime="{{post.date}}">{{ post.date | date('D MMMM YYYY, dddd') }}</time>
+
              <article class="postlist-content"> 
               {{post.templateContent | safe}} 
               </article>
-            <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
         {% endfor %}
       </ul>
-    {% endfor %}
   
+  <p>остальные посты почитать можно <a href="/archive">тут</a></p>
+
 </section>
+
+

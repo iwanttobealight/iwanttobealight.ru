@@ -250,6 +250,13 @@ blockquote {
   padding-left: 0;
 }
 
+.postlist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  row-gap: 3rem;
+  column-gap: 2rem;
+}
+
 .postlist-list {
   max-width: 40rem;
   margin: 5px 0 60px 0;
@@ -258,13 +265,15 @@ blockquote {
 }
 
 .postlist-content {
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
 }
 
 .postlist-date {
   font-size: 0.8125em;
   color: var(--darkgray);
   white-space: nowrap;
+  display: block;
+  margin-bottom: 0.5rem;
 }
 
 .postlist-date {
@@ -273,8 +282,12 @@ blockquote {
 
 .postlist-link {
   display: inline-block;
+  text-decoration: none;
   padding: 0.25em 0.1875em;
-  /* 4px 3px /16 */
+}
+
+.postlist-link:hover {
+  text-decoration: underline;
 }
 
 .postlist-item {
@@ -299,7 +312,7 @@ blockquote {
   font-weight: bold;
 }
 
-.tmpl-home .postlist-link, .tmpl-post .postlist-link {
+.postlist-link {
   font-size: 1.1875em;
   /* 19px /16 */
   font-weight: 700;
