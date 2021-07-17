@@ -1,5 +1,5 @@
-<section class="postlist-wrapper">
-  <article class="news" >
+<section class="postlist-wrapper news">
+
     {% for year, yearPosts in collections.postsByYear %}
       <h2 class="postlist-title">{{ year }}</h2>
       <ul class="postlist-list">
@@ -9,11 +9,13 @@
             {% else %}
               <code>{{ post.url }}</code>
             {% endif %}
+            </a>
+             <article class="postlist-content"> 
+              {{post.templateContent | safe}} 
+              </article>
             <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
-          </a>
-
         {% endfor %}
       </ul>
     {% endfor %}
-  </article>
+  
 </section>

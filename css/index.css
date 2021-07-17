@@ -251,13 +251,14 @@ blockquote {
 }
 
 .postlist-list {
+  max-width: 40rem;
   margin: 5px 0 60px 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 1px;
-  background-color: var(--plum);
   list-style: none;
   padding-left: 0;
+}
+
+.postlist-content {
+  margin-bottom: 10rem;
 }
 
 .postlist-date {
@@ -278,7 +279,6 @@ blockquote {
 
 .postlist-item {
   text-decoration: none;
-  padding: 1em;
   background-color: var(--lightblue);
   display: flex;
   flex-direction: column;
@@ -288,12 +288,7 @@ blockquote {
 }
 
 .postlist-item:hover {
-  background-color: var(--plum);
-  color: var(--white);
-}
-
-.postlist-item:hover *, .postlist-item:hover .postlist-link {
-  color: var(--white);
+  text-decoration: underline;
 }
 
 .postlist-title {
